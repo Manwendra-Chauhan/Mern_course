@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <link rel="stylesheet" href="./task_12.css"/>
+</head>
+
+<body >
+    <div class="content">
+        <form class="form">
+            <table cellspacing="10" >
+                <tr>
+                    <td class="table-content"><label for="Fname">Name:</label></td>
+                    <td><input type="text" name="Fname" placeholder="Enter your name"/></td>
+                </tr>
+                
+                <tr>
+                    <td class="table-content"><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" placeholder="Enter your email"/></td>
+                </tr>
+                <tr>
+                    <td class="table-content"><label for="Password">Password:</label></td>
+                    <td><input type="password" name="Password"/></td>
+                </tr>
+                <tr>
+                    <td class="table-content"><label for="phone">Phone Number:</label></td>
+                    <td><input type="contact" name="phone"/></td>
+                </tr>
+                <tr>
+                    <td class="table-content" width="50px" height="50px"><label for="Gender">Gender:</label></td>
+                    
+                    <td class="gender">
+                        <div class="gender-type">
+                            <label for="male">Male:</label>
+                            <input type="radio" name="genderbutton" value="Male" id="male" />
+                        </div>
+                        <div class="gender-type">
+                            <label for="female">Female:</label>
+                            <input type="radio" name="genderbutton" value="Female" id="female"/>
+                        </div>
+                        <div class="gender-type">
+                            <label for="other">other:</label>
+                            <input type="radio" name="genderbutton" value="other" id="other"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td ><label for="language">language:</label></td>
+                    <td>
+                        <select aria-placeholder="choose your country">
+                            <option>Select language</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td ><label for="zipcode">Zip Code:</label></td>
+                    <td><input type="number" name="zipcode"/></td>
+                </tr>
+                <tr>
+                    <td ><label for="About">About:</label></td>
+                    <td ><input type="text" name="About" placeholder="Write about yourself..." style="padding-bottom: 30px; padding-right: 10px;" /></td>
+                </tr>
+            </table>
+            <button>Register</button>
+        </form>
+    </div>
+</body>
+</html>

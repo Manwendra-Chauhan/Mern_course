@@ -1,0 +1,38 @@
+
+
+.nav{
+    width: 130px;
+    height: 20px;
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border-right: 20px solid black;
+    margin-top: 30px;
+}
+
+hr{
+    width: 300px;
+    border-top: 3px dotted rgb(227, 48, 48);
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    width: 50%;
+    padding-bottom: 15%;
+    margin-left: 20%;
+    margin-top: 10%;
+    
+}
+
+.written-content{
+    width: 40%;
+    color: rgb(227, 48, 48);
+    
+}
+
+.nav:hover{
+    color: red;
+}
